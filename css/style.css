@@ -23,30 +23,94 @@ p {
 .catalog-section {
   text-align: center;
 }
-
-#footer-section {
-  background: #333;
+/****** FOOTER ******/
+footer {
+  background-color: #2f2f2f;
+  padding: 60px;
+  font-size: 80%;
+  height: 32px;
 }
 
-#footer-section .container div {
-  display: grid;
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited,
+footer p a:link,
+footer p a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+footer p a:hover,
+footer p a:active {
+  color: #fff;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+  transition: color 0.2s;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+  transition: color 0.2s;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 80%;
+}
+
+footer .copyright {
+  background-color: #2f2f2f;
   width: 100%;
-  grid-template-columns: repeat(4, 1fr);
+}
+
+footer p:last-child {
+  padding-top: 5px;
+}
+
+.contact .contact-label {
+  width: 100%;
+}
+
+.contact .contact-input {
+  width: 50%;
+}
+
+.contact .contact-message {
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
-
-#footer-section div a {
-  color: #fff;
-}
-
-#footer-section div a:hover {
-  text-decoration: none;
-  color: #bfb583;
-}
-
-#footer-section .copyright {
-  color: #fff;
-  font-size: 1rem;
 }
