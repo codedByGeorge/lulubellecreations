@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Mostra Nuova W05 Regular";
+  src: url("/fonts/a8adceec-3131-40a2-835d-9a78c87605e5.eot");
+  src: url("/fonts/a8adceec-3131-40a2-835d-9a78c87605e5.eot") format("eot"),
+    url("/fonts/516c05eb-d25b-4a79-aab6-0c261fae96dd.woff2") format("woff2"),
+    url("/fonts/81e23c74-1c79-4344-926c-b396dd6808e4.woff") format("woff"),
+    url("/fonts/da26e750-32da-4e96-8c8c-b5adacfed035.ttf") format("truetype");
+}
+
+body {
+  font-family: "Mostra Nuova W05 Regular", sans-serif;
+  color: #444;
+}
+
+p {
+  font-size: 1.5rem;
+}
+.carousel-item {
+  height: 100vh;
+}
+
+.main-section,
+.catalog-section {
+  text-align: center;
+}
+
+#footer-section {
+  background: #333;
+}
+
+#footer-section .container div {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#footer-section div a {
+  color: #fff;
+}
+
+#footer-section div a:hover {
+  text-decoration: none;
+  color: #bfb583;
+}
+
+#footer-section .copyright {
+  color: #fff;
+  font-size: 1rem;
+}
